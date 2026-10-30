@@ -1,0 +1,19 @@
+<svg width="400" height="400" id="mySvg" style="border: 1px solid black;">
+</svg>
+
+<script>
+    // 获取SVG元素
+    const svg = document.getElementById("mySvg");
+
+    // 创建线段元素
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("x1", 50);
+    line.setAttribute("y1", 50);
+    line.setAttribute("x2", 200);
+    line.setAttribute("y2", 200);
+    line.setAttribute("stroke", "black");
+    line.setAttribute("stroke-width", 6);
+
+    // 将线段元素添加到SVG中
+    svg.appendChild(line);
+</script>

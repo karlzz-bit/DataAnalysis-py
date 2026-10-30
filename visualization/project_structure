@@ -1,0 +1,22 @@
+// Project Structure
+digraph {
+	A [label=blog]
+	B [label="_config.butterfly.yml"]
+	C [label="_config.yml"]
+	D [label="db.json"]
+	E [label="node_modules/"]
+	F [label="package-lock.json"]
+	G [label="package.json"]
+	H [label="scaffolds/"]
+	I [label="source/"]
+	J [label="themes/"]
+	A -> B
+	A -> C
+	A -> D
+	A -> E
+	A -> F
+	A -> G
+	A -> H
+	A -> I
+	A -> J
+}

@@ -1,0 +1,17 @@
+<svg width="400" height="400" id="mySvg" style="border: 1px solid black;">
+</svg>
+
+<script>
+    // 获取SVG元素
+    const svg = document.getElementById("mySvg");
+
+    // 创建文本元素
+    const textElement = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    textElement.setAttribute("x", 100);
+    textElement.setAttribute("y", 100);
+    textElement.setAttribute("font-size", 30);
+    textElement.textContent = "Hello";
+
+    // 将文本元素添加到SVG中
+    svg.appendChild(textElement);
+</script>

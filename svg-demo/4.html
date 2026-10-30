@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG with D3</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <script>
+        // 使用 D3 选择 body 元素，并在其内添加一个 svg 画布
+        const svg = d3.select("body")
+            .append("svg")
+            .attr("width", 600)
+            .attr("height", 600)
+            .style("border", "1px solid black"); // 添加一个边框以便更好地看到画布
+
+        // 在这个画布上，你可以继续使用 D3 添加形状或其他元素
+    </script>
+</body>
+</html>

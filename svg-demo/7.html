@@ -1,0 +1,19 @@
+<svg width="400" height="400" id="mySvg" style="border: 1px solid black;">
+</svg>
+
+<script>
+    // 获取SVG元素
+    const svg = document.getElementById("mySvg");
+
+    // 创建椭圆形元素
+    const ellipse = document.createElementNS("http://www.w3.org/2000/svg", "ellipse");
+    ellipse.setAttribute("cx", 100);
+    ellipse.setAttribute("cy", 180);
+    ellipse.setAttribute("rx", 80);
+    ellipse.setAttribute("ry", 50);
+    ellipse.setAttribute("fill", "yellow");
+    ellipse.setAttribute("stroke", "black");
+
+    // 将椭圆形元素添加到SVG中
+    svg.appendChild(ellipse);
+</script>

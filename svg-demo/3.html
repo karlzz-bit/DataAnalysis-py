@@ -1,0 +1,18 @@
+<svg width="400" height="200" id="mySvg" style="border: 1px solid black;">
+</svg>
+
+<script>
+    // 获取SVG元素
+    const svg = document.getElementById("mySvg");
+
+    // 创建圆形元素
+    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", 100);
+    circle.setAttribute("cy", 60);
+    circle.setAttribute("r", 50);
+    circle.setAttribute("fill", "yellow");
+    circle.setAttribute("stroke", "black");
+
+    // 将圆形元素添加到SVG中
+    svg.appendChild(circle);
+</script>

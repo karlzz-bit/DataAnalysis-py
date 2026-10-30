@@ -1,0 +1,21 @@
+<svg width="400" height="200" id="mySvg" style="border: 1px solid black;">
+</svg>
+
+<script>
+    // 获取SVG元素
+    const svg = document.getElementById("mySvg");
+
+    // 创建圆角矩形元素
+    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("x", 150);
+    rect.setAttribute("y", 10);
+    rect.setAttribute("width", 100);
+    rect.setAttribute("height", 50);
+    rect.setAttribute("rx", 10);
+    rect.setAttribute("ry", 10);
+    rect.setAttribute("fill", "yellow");
+    rect.setAttribute("stroke", "blue");
+
+    // 将圆角矩形元素添加到SVG中
+    svg.appendChild(rect);
+</script>
